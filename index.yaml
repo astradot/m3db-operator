@@ -3,7 +3,7 @@ entries:
   m3db-operator:
   - apiVersion: v1
     appVersion: '>0.4.7'
-    created: "2023-03-23T06:27:54.841115328Z"
+    created: "2023-03-23T06:31:32.78284929Z"
     description: Kubernetes operator for M3DB timeseries database
     digest: 39f84f014bff5e51fd9018a169193f21d7ac2460c04c9ee9a62602e1c90f6d15
     home: https://github.com/m3db/m3db-operator
@@ -19,6 +19,6 @@ entries:
     sources:
     - https://github.com/m3db/m3db-operator
     urls:
-    - https://github.com/mdfaizsiddiqui/m3db-operator/m3db-operator-0.14.0.tgz
+    - https://mdfaizsiddiqui.github.io/m3db-operator/m3db-operator-0.14.0.tgz
     version: 0.14.0
-generated: "2023-03-23T06:27:54.838591783Z"
+generated: "2023-03-23T06:31:32.778317433Z"
