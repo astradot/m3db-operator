@@ -19,6 +19,6 @@ entries:
     sources:
     - https://github.com/m3db/m3db-operator
     urls:
-    - https://mdfaizsiddiqui.github.io/m3db-operator/m3db-operator-0.14.0.tgz
+    - https://astradot.github.io/m3db-operator/m3db-operator-0.14.0.tgz
     version: 0.14.0
 generated: "2023-03-23T06:31:32.778317433Z"
