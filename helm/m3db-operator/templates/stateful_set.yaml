@@ -3,6 +3,8 @@ kind: StatefulSet
 metadata:
   name: {{ .Values.operator.name }}
   namespace: {{ .Release.Namespace }}
+  annotations:
+    linkerd.io/inject: disabled
 spec:
   serviceName: {{ .Values.operator.name }}
   replicas: 1
