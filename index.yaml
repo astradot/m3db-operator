@@ -3,9 +3,9 @@ entries:
   m3db-operator:
   - apiVersion: v1
     appVersion: '>0.4.7'
-    created: "2023-04-09T05:18:46.831642+05:30"
+    created: "2023-04-11T00:54:45.918478+05:30"
     description: Kubernetes operator for M3DB timeseries database
-    digest: 94a3b78799fa917b35528d69ebae642dc9b3bc663403b128a3d7c7d6eb926c02
+    digest: 7031039d99f757eb529c007c87e8bbec58482f88162ff2ae3874ac1505c90975
     home: https://github.com/m3db/m3db-operator
     icon: https://raw.githubusercontent.com/m3db/m3/master/docs/theme/assets/images/M3-logo.png
     keywords:
@@ -21,4 +21,4 @@ entries:
     urls:
     - https://astradot.github.io/m3db-operator/m3db-operator-0.14.0.tgz
     version: 0.14.0
-generated: "2023-04-09T05:18:46.829856+05:30"
+generated: "2023-04-11T00:54:45.914723+05:30"
