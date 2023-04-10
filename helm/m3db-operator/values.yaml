@@ -1,3 +1,5 @@
+---
+commonLabels: {}
 operator:
   name: m3db-operator
 image:

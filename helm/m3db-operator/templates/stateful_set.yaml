@@ -3,8 +3,10 @@ kind: StatefulSet
 metadata:
   name: {{ .Values.operator.name }}
   namespace: {{ .Release.Namespace }}
-  annotations:
-    linkerd.io/inject: disabled
+  labels:
+    {{- if .Values.commonLabels }}
+      {{- include "common.tplvalues.render" ( dict "value" .Values.commonLabels "context" $ ) | nindent 4 }}
+    {{- end }}
 spec:
   serviceName: {{ .Values.operator.name }}
   replicas: 1
