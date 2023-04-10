@@ -18,7 +18,7 @@ spec:
       labels:
         name: {{ .Values.operator.name }}
         {{- if .Values.commonLabels }}
-        {{- include "common.tplvalues.render" ( dict "value" .Values.commonLabels "context" $ ) | nindent 4 }}
+        {{- include "common.tplvalues.render" ( dict "value" .Values.commonLabels "context" $ ) | nindent 8 }}
         {{- end }}
     spec:
       securityContext:
